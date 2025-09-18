@@ -1,0 +1,36 @@
+.findid_title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.findid_item {
+    display: flex;
+    margin: auto;
+    width: 280px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #191919;
+}
+
+.btn_area {
+    text-align: center;
+}
+
+.findid_btn {
+    border: none;
+    cursor: pointer;
+    width: 190px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #191919;
+    color: yellow;
+}
+
+.findid_btn:hover {
+    background-color: #2b2b2b;
+}

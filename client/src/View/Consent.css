@@ -1,0 +1,90 @@
+.consent_title {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.all_consent {
+    margin: auto;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f8f88a;
+    padding-left: 10px;
+    letter-spacing: .8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.all_consent label {
+    display: flex;
+    cursor: pointer;
+}
+
+.all_consent input {
+    transform: scale(1.2);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.all_consent p {
+    padding-left: 10px;
+}
+
+.all_consent span {
+    font-size: 12px;
+    color: #5e5b5bf4;
+    letter-spacing: .2px;
+}
+
+.consent_item {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.consent_item label {
+    display: flex;
+    cursor: pointer;
+}
+
+.consent_item input {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.consent_item p {
+    padding-left: 7px;
+}
+
+.consent_item button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.btn_area {
+    text-align: center;
+}
+
+.consent_btn {
+    border: none;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #191919;
+    color: yellow;
+    cursor: pointer;
+    
+}
+
+.consent_btn:hover {
+    background-color: #2b2b2b;
+}
