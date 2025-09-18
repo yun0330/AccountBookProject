@@ -30,6 +30,10 @@ import Login from "./View/Login";
 import Main from "./View/Main";
 import Tos from "./Components/Modal/Tos";
 import Income from "./Components/Category/Income"
+import NoticeContext from "./Components/Context/NoticeContext";
+import BulletinContext from "./Components/Context/BulletinContext";
+import FriendContext from "./Components/Context/FriendContext";
+import LifeBoardContext from "./Components/Context/LifeBoardContext";
 function App() {
   return (
     <Router>
@@ -60,6 +64,10 @@ function App() {
 <Route path="/6" element={<FindPassword />} />    {/*css완*/}
 <Route path="/7" element={<Tos />} /> 
 <Route path="/8" element={<Income />} /> 
+<Route path="/9" element={<NoticeContext />} />   {/*css완*/}
+<Route path="/10" element={<BulletinContext />} />{/*css완*/}
+<Route path="/11" element={<FriendContext />} />  {/*css완*/}
+<Route path="/12" element={<LifeBoardContext />}/>{/*css완*/}
 </Routes>
 </Router>
   );
